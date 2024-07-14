@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
+article, aside, embed, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -196,7 +196,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -2903,7 +2903,7 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	section.special, article.special embed.special {
 		text-align: center;
 	}
 
@@ -3857,7 +3857,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 2rem;
+				padding: 1rem;
 				width: 50%;
 			}
 
@@ -3888,7 +3888,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 2.5rem;
+					padding: 1rem;
 					width: 50%;
 				}
 
@@ -3901,7 +3901,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 2rem;
+					padding: 1rem;
 					width: 100%;
 				}
 
